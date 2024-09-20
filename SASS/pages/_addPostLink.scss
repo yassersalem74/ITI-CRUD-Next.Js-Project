@@ -1,0 +1,23 @@
+.add-post-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.add-post-icon .add-post-link {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.add-post-icon .add-post-link:hover {
+    background-color: darkred;
+}

@@ -1,0 +1,21 @@
+/* Example media query for adjusting card layout on smaller screens */
+@media (max-width: 768px) {
+    .card-container {
+        max-width: 250px; /* Adjust maximum width for smaller screens */
+    }
+}
+
+
+/* Custom CSS */
+.postCard{
+    padding: 5px;
+
+}
+.card-container {
+    max-width: 300px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center cards horizontally */
+}
+
+.card-item {
+    margin-bottom: 20px; /* Add some spacing between cards */
+}

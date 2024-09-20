@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.yasser {
+  color: 0;
+  background-color: bisque;
+}
+
+.header {
+  background-color: rgb(0, 255, 47);
+  font-size: 60px;
+  text-align: center;
+  position: static;
+  top: 0;
+}
+
+.footer {
+  background-color: chocolate;
+  font-size: 60px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.add-post-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.add-post-icon .add-post-link {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.add-post-icon .add-post-link:hover {
+  background-color: darkred;
+}
+
+/* Example media query for adjusting card layout on smaller screens */
+@media (max-width: 768px) {
+  .card-container {
+    max-width: 250px; /* Adjust maximum width for smaller screens */
+  }
+}
+/* Custom CSS */
+.postCard {
+  padding: 5px;
+}
+
+.card-container {
+  max-width: 300px; /* Adjust maximum width as needed */
+  margin: 0 auto; /* Center cards horizontally */
+}
+
+.card-item {
+  margin-bottom: 20px; /* Add some spacing between cards */
+}
+
+/* styles.css */
+.fullscreen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fullscreen-container .error-image {
+  height: 443px !important;
+}
+.fullscreen-container Button {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  background-color: #edf5fd;
+  color: #002c6f;
+  border: 3px solid #002c6f;
+  border-radius: 15px;
+}
+.fullscreen-container Button:hover {
+  background-color: #002c6f;
+  color: #edf5fd;
+  border: 3px solid #edf5fd;
+}
+.fullscreen-container Button:active {
+  background-color: #002c6f;
+  color: #edf5fd;
+  border: 3px solid #edf5fd;
+}
+
+.center-form {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-container {
+  margin-top: 40px;
+  position: relative;
+  width: 400px;
+  height: 570px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.custom-brand-logo {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.custom-brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #1DA1F2;
+  letter-spacing: 1px;
+}
+
+.custom-inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.custom-input,
+.custom-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.custom-input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.custom-button {
+  color: white;
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+  border-radius: 11px;
+}
+
+.custom-button:hover {
+  box-shadow: none;
+}
+
+.custom-input::-moz-placeholder {
+  color: gray;
+}
+
+.custom-input::placeholder {
+  color: gray;
+}
+
+.custom-textarea {
+  height: auto;
+  height: 100px !important;
+}
+
+.custom-area {
+  height: 100px !important;
+}
+
+.custom-container {
+  position: relative;
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  margin: auto;
+}
+
+.custom-form-group {
+  margin-bottom: 20px;
+}
+
+.custom-form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.custom-btn {
+  color: white;
+  background: #1DA1F2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.custom-btn:hover {
+  box-shadow: none;
+}
+
+.custom-brand-logo {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+label {
+  font-weight: 700;
+  padding: 5px;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  width: 100%;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+.file-custom {
+  background-color: #084cdf !important;
+}/*# sourceMappingURL=main.css.map */

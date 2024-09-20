@@ -1,0 +1,35 @@
+/* styles.css */
+
+.fullscreen-container {
+    // height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .error-image {
+        // width: 100px;
+        height: 443px !important;
+    }
+
+    Button {
+        position: relative;
+        left: 25%;
+        width: 50%;
+        background-color: #edf5fd;
+        color: #002c6f;
+        border: 3px solid #002c6f;
+        border-radius: 15px;
+
+        &:hover {
+            background-color: #002c6f;
+            color: #edf5fd;
+            border: 3px solid #edf5fd;
+        }
+        &:active {
+            background-color: #002c6f;
+            color: #edf5fd;
+            border: 3px solid #edf5fd;
+          }
+    }
+
+}
